@@ -1,0 +1,28 @@
+*
+{
+    margin: 23px;
+}
+h3
+{
+    color: blue;
+}
+
+h1,h2,h3{
+    background-color: rgb(63, 201, 201);
+}
+
+.con
+{
+    color: brown;
+}
+
+#con2
+{
+    color: yellow;
+    background-color: brown;
+}     
+
+section>div>h5
+{
+    color: red;
+}
