@@ -1,2 +1,2 @@
 # Learning
-Learn Will to make a kingdom
+Learn Well to make a kingdom
