@@ -1,0 +1,11 @@
+Regular expression
+
+user for patten matching or string matching
+
+[abc] = a,b, or c
+
+[^abc] = any charater other then a,b,case
+
+[a-z] = a to b
+
+[A-Z] = 
