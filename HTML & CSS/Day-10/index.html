@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple page 10 </title>
+</head>
+
+<style>
+
+        body
+        {
+            background-color: blueviolet;
+            animation-name: color;
+            animation-duration: 3s;
+
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes color
+        {
+        10%{
+                background-color: lightblue;
+            }
+            20%
+            {
+                background-color: lightcoral;
+
+            }
+
+            50%
+            {
+                background-color: aquamarine;
+            }
+            100%
+            {
+                background-color: lightskyblue;
+            }
+
+        }
+    img
+    {
+        margin-left: 500px;
+        margin-top: 200px;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%; 
+        transform: translate(20px, 30px);       
+    }
+
+    img:hover
+    {
+       animation-name: img;
+       animation-duration: 5s;
+       animation-iteration-count: infinite;
+
+    }
+
+    @keyframes img
+    {
+        10%
+        {
+         transform: translate(50px, 50px);
+        }
+        20%
+        {
+     transform: rotate(18deg);
+        }
+        50%
+        {
+transform: scale(2,2);
+        }
+        100%
+        {
+border-radius: 50%;
+        }
+    }
+</style>
+<body>
+    <img src="Encounter Egambaram.jpg" alt="">
+</body>
+</html>
