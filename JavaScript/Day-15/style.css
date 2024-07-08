@@ -1,0 +1,41 @@
+body{
+  margin:0;
+  padding:0;
+  background: rgb(0, 0, 0)
+}
+
+.container{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+  color:white;
+  display:flex;
+  width:100vw;
+  height:100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: rgb(30, 168, 253);
+}
+
+#wrapper{
+  border: 2px solid red;
+  border-radius: 50px;
+  padding:1rem;
+  cursor: pointer;
+}
+
+
+#wrapper:hover
+{
+  background-color: white;
+  color: black;
+  
+}
+.container span{
+  margin-left:10px;
+}
+
+#ampm{
+  font-size:3rem;
+  align-items: end;
+}
