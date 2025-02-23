@@ -6,7 +6,7 @@ document.getElementById('head').innerHTML = "welcome to all";
 
 
 let str1 = "hi /";
-let str2 = " hello to the ";
+let str2 = "hello to the ";
 
  console.log(str1.concat(str2)); // concadinat
 
