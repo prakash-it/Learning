@@ -20,7 +20,7 @@ if(a<=50 && b<=80)
 
 }
 
-    else if(a==65 && b>=a)
+    else if(a!=65 && b>=a)
     {
         console.log("You are already here");
         
@@ -30,3 +30,15 @@ if(a<=50 && b<=80)
         console.log("you are fire");
         
     }
+
+
+
+    let we = 100
+    let are = 200
+
+    let max
+
+    if(we>are) max=we;
+    else max=are
+    console.log(max);
+    
